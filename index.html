@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Usuário</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Cadastro de Usuário</h1>
+        </header>
+        
+        <section> 
+            <nav>
+                <ul>
+                    <li><a href="htmlpages/pagina.html">Página Principal</a></li>
+                    <li><a href="htmlpages/sobre.html">Sobre Mim</a></li>
+                    <li><a href="htmlpages/projetos.html">Meus Projetos</a></li>
+                    <li><a href ="htmlpages/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <section>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha"><br><br>
+
+                <label for="genero">Gênero:</label><br>
+                <select id="genero" name="genero">
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="outro">Outro</option>
+                </select><br><br>
+
+                <label for="interesses">Interesses:</label><br>
+                <input type="checkbox" id="programacao" name="interesses" value="programacao">
+                <label for="programacao">Programação</label><br>
+                <input type="checkbox" id="design" name="interesses" value="design">
+                <label for="design">Design</label><br>
+                <input type="checkbox" id="musica" name="interesses" value="musica">
+                <label for="musica">Música</label><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Cadastrar">
+            </form>
+        </section>
+
+        <footer>
+            <p>© 2025 Meu Site Pessoal</p>
+        </footer>
+    </body>
+</html>
